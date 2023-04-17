@@ -1,0 +1,54 @@
+.form{
+    display: grid;
+    position: relative;
+    width: 80%;
+    border: 2px solid red;
+    top: 16px;
+    left: 10%;
+    background-color: #eee;
+    box-shadow:2px 2px 10px 0px rgba(0, 0, 0, 0.75) ;
+    
+}
+#myForm{
+display: grid;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.table{
+    display: grid;
+    position: relative;
+    width: 80%;
+    top: 16px;
+    left: 10%;
+    border: 2px solid red;
+    margin-top: 20px;
+    
+}
+#myTable{
+    display: inline-block;
+   position: relative;
+  background-color: wheat;
+
+
+}
+th{
+  padding-left: 12px;
+}
+h1{
+    margin-top: 20px;
+}
+#clear{
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+#clear:hover{
+background-color: red;
+}
+#submit{
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color:green;
+}
